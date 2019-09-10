@@ -1,11 +1,6 @@
 
 public class Game {
-    public Game(Dice dice, int point, int rollCount, int roll) {
-        this.dice = dice;
-        this.point = point;
-        this.rollCount = rollCount;
-        this.roll = roll;
-    }
+
 
     Dice dice = new Dice();
         int point = dice.getTotal();

@@ -6,6 +6,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class Controller {
+    Game game = new Game();
     @FXML
     // The reference of inputText will be injected by the FXML loader
     private TextField inputText;
@@ -22,13 +23,11 @@ public class Controller {
     private ResourceBundle resources;
 
     // Add a public no-args constructor
-    public Controller()
-    {
+    public Controller() {
     }
 
     @FXML
-    private void initialize()
-    {
+    private void initialize() {
     }
 
     @FXML
